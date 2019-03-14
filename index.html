@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+<title>Bootstrap Registro Simples</title>
+<link rel="shortcut icon" href="http://obscureproblemsandgotchas.com/wp-content/uploads/2018/06/bootstrap-stack-e1530246058846.png">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" media="screen" href="main.css">
+	
+</head>
+<body>
+<div class="signup-form">
+    <form action="" method="post">
+		<h2>Registro</h2>
+		<p class="hint-text">Crie sua conta. É de graça e leva apenas alguns minutos.</p>
+        <div class="form-group">
+			<div class="row">
+				<div class="col-sm-6"><input type="text" class="form-control" name="primo_nome" placeholder="Primeiro Nome" required="required"></div>
+				<div class="col-sm-6"><input type="text" class="form-control" name="segundo_nome" placeholder="Segundo Nome" required="required"></div>
+			</div>        	
+        </div>
+        <div class="form-group">
+        	<input type="email" class="form-control" name="email" placeholder="E-mail" required="required">
+        </div>
+		<div class="form-group">
+            <input type="password" class="form-control" name="senha" placeholder="Senha" required="required">
+        </div>
+		<div class="form-group">
+            <input type="password" class="form-control" name="confirmar_senha" placeholder="Confirmar Senha" required="required">
+        </div>        
+        <div class="form-group">
+			<label class="checkbox-inline"><input type="checkbox" required="required"> Eu aceito os <a href="#">Termos de Uso</a> &amp; <a href="#">Política de Privacidade</a></label>
+		</div>
+		<div class="form-group">
+            <button type="submit" class="btn btn-success btn-lg btn-block">Registre Agora</button>
+        </div>
+    </form>
+	<div class="text-center">Já possui uma conta? <a href="#">Entrar</a></div>
+</div>
+</body>
+</html>    
+
